@@ -102,7 +102,7 @@ export function Navbar() {
           <a href="https://github.com/IPEACE04" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
             <FaGithub size={20} />
           </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+          <a href="https://www.facebook.com/po.roro.792/?locale=th_TH" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
             <FaFacebook size={20} />
           </a>
           <a href="mailto:peerapat.cd@gmail.com" className="hover:text-white transition-colors">
@@ -144,7 +144,7 @@ export function Navbar() {
               <a href="https://github.com/IPEACE04" target="_blank" rel="noopener noreferrer" className="hover:text-white">
                 <FaGithub size={24} />
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+              <a href="https://www.facebook.com/po.roro.792/?locale=th_TH" target="_blank" rel="noopener noreferrer" className="hover:text-white">
                 <FaFacebook size={24} />
               </a>
               <a href="mailto:peerapat.cd@gmail.com" className="hover:text-white">
