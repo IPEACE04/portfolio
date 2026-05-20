@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FaGithub, FaFacebook, FaEnvelope, FaBars, FaTimes } from "react-icons/fa";
+import { FaGithub, FaLine, FaEnvelope, FaBars, FaTimes } from "react-icons/fa";
 
 const navLinks = [
   { name: "About", href: "/#about" },
@@ -102,9 +102,9 @@ export function Navbar() {
           <a href="https://github.com/IPEACE04" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
             <FaGithub size={20} />
           </a>
-          <a href="https://www.facebook.com/po.roro.792" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-            <FaFacebook size={20} />
-          </a>
+          <Link href="/line" className="hover:text-white transition-colors">
+            <FaLine size={20} />
+          </Link>
           <a href="mailto:peerapat.cd@gmail.com" className="hover:text-white transition-colors">
             <FaEnvelope size={20} />
           </a>
@@ -144,9 +144,9 @@ export function Navbar() {
               <a href="https://github.com/IPEACE04" target="_blank" rel="noopener noreferrer" className="hover:text-white">
                 <FaGithub size={24} />
               </a>
-              <a href="https://www.facebook.com/po.roro.792" target="_blank" rel="noopener noreferrer" className="hover:text-white">
-                <FaFacebook size={24} />
-              </a>
+              <Link href="/line" className="hover:text-white">
+                <FaLine size={24} />
+              </Link>
               <a href="mailto:peerapat.cd@gmail.com" className="hover:text-white">
                 <FaEnvelope size={24} />
               </a>

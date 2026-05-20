@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaGithub, FaFacebook, FaEnvelope, FaArrowUp } from "react-icons/fa";
+import Link from "next/link";
+import { FaGithub, FaLine, FaEnvelope, FaArrowUp } from "react-icons/fa";
 
 export function Footer() {
   const scrollToTop = () => {
@@ -21,9 +22,9 @@ export function Footer() {
           <a href="https://github.com/IPEACE04" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
             <FaGithub size={24} />
           </a>
-          <a href="https://facebook.com/po.roro.792?locale=th_TH" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-            <FaFacebook size={24} />
-          </a>
+          <Link href="/line" className="hover:text-white transition-colors">
+            <FaLine size={24} />
+          </Link>
           <a href="mailto:peerapat.cd@gmail.com" className="hover:text-white transition-colors">
             <FaEnvelope size={24} />
           </a>
